@@ -1,0 +1,60 @@
+<div class="flex flex-row m-0 p-0">
+    <img src="assets/Img_login.svg" alt="" class="h-screen w-screen object-cover">
+    <form class="p-[30px]" action="">
+        <div class="flex flex-row w-[250px] gap-2 py-[20px]">
+            <img src="assets/Avatar-UI-Unicorn-V2.svg" alt="" class="h-[30px] w-[30px]">
+            <h2 class="text-[18px] font-semibold leading-7 not-italic">UI Unicorn</h2>
+        </div>
+        <div class="flex flex-col">
+            <h2 class="text-[20px] font-semibold leading-7 not-italic py-[10px]">Nice to see you again</h2>
+            <h3 class="text-[10px] font-normal leading-7 not-italic">Login</h3>
+            <input
+                class="w-full h-[43px] px-[16px] py-[8px] placeholder:text-[#aeaeae] rounded-md bg-[#f2f2f2] border-[1px] border-solid border-[#e0e0e0] focus:outline-none focus:ring-0 focus:ring-blue-500 focus:ring-[2px] focus:border-solid focus:ring-inset"
+                type="text" placeholder="Email or User name">
+            <h3 class="text-[10px] font-normal leading-7 not-italic">
+                Password
+            </h3>
+            <div
+                class="flex flex-row h-[43px] w-full bg-[#f2f2f2] border-[0.5px] justify-center items-center rounded-md px-[8px] border-[1px] border-solid border-[#e0e0e0] focus-within:outline-none focus-within:ring-0 focus-within:ring-blue-500 focus-within:ring-[2px] focus-within:border-solid focus-within:ring-inset">
+                <input
+                    class="w-[360px] h-[36px] px-[8px] placeholder:text-[#aeaeae] py-[8px] bg-[#f2f2f2] border-none r-[0px] outline-0 border-transparent"
+                    type="password" placeholder="Enter password">
+                <fa-icon [icon]="faEye" class="px-[8px] text-[#aeaeae]"></fa-icon>
+            </div>
+            <div class="flex flex-row mt-[20px] gap-2">
+
+
+                <button
+                    class="flex  bg-[#f2f2f2] rounded-[1000px] border-[0px] relative cursor-pointer outline-0  w-[50px] shadow-sm shadow-md"
+                    id="switch">
+                    <span
+                        class="w-[25px] h-[25px] leading-8 block bg-[#fff] rounded-[1000px] ml-[2px] shadow-sm shadow-md"></span>
+                </button>
+                <h3 class="text[12px] font-normal leading-5 tracking-[0.3px]">Remenber me</h3>
+                <a class="text[12px] font-nomral leading-5 tracking-[0.3px] text-[#007AFF]  ml-[70px]" href="#">Forgot
+                    Password</a>
+            </div>
+            <button
+                class="w-full bg-[#007AFF] h-[40px] justify-center items-center rounded-[6px] mt-[20px] text-[#ffff]"
+                type="submit">Sign
+                in</button>
+
+            <button
+                class="flex flex-row gap-4 bg-[#333333] h-[40px] w-full justify-center items-center rounded-[6px] mt-[20px] text-[#ffff]"
+                type="button"><img src="assets/Other-Pay-Method.svg" alt="">Or sign in with Google</button>
+
+            <h4 class="text-[12px] not-italic font-normal leading-[20px] tracking-[0.3px] mt-[20px] text-center">Dont
+                have
+                an
+                account?<a
+                    class="ml-[5px] text-[12px] not-italic font-normal leading-[20px] tracking-[0.3px] mt-[20px] text-[#007AFF]"
+                    href="#">Sign up
+                    now</a></h4>
+
+        </div>
+
+    </form>
+
+
+
+</div>
